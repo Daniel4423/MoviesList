@@ -15,7 +15,7 @@
 #include<iostream>
 using namespace std;
 
-Movies::Movies() : topTitles(3), topTitleYears(3), topTitleRatings(3) {
+Movies::Movies() : topTitles(3), topTitleYears(3), topTitleRatings(3) {  //initializing all three member vectors with size 3. Adjust all sizes (to same amounts) to increase or decrease the size of list.
 }
 
 void Movies::Print() {
